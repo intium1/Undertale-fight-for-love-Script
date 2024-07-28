@@ -31,7 +31,7 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("Undertale fight for love", "RJTheme8")
+local Window = Library.CreateLib("Undertale fight for love", "RJTheme3")
 
 -- Секция
 local Tab = Window:NewTab("Reapertale Sans")
