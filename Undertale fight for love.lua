@@ -31,7 +31,7 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("Undertale fight for love", "RJTheme3")
+local Window = Library.CreateLib("Undertale fight for love", "RJTheme8")
 
 -- Секция
 local Tab = Window:NewTab("Reapertale Sans")
@@ -98,16 +98,11 @@ Section:NewButton("Способность 1", "делает тебе 100000 хп
 end)
 
 -- Слайдер
-Section:NewSlider("Здоровье", "SliderInfo", 100000, 10, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider("Здоровье", "SliderInfo", 100000, 10, function(s) -- 100000 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.Health = s
 end)
 
--- Кнопка
-Section:NewButton("Способность 1", "делает тебе 100000 скорки", function()
-    game.Players.LocalPlayer.Workspace.Egor20042282.Speed = 100000
-end)
-
 -- Слайдер
-Section:NewSlider("Скорость", "SliderInfo", 1000, 10, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider("Скорость", "SliderInfo", 1000, 10, function(s) -- 1000 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
