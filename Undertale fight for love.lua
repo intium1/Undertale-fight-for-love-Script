@@ -16,6 +16,7 @@ local Library = loadstring(game:HttpGet("https://github.com/intium1/Undertale-fi
 который находится чуть ниже , и вместо "RJTheme2" в переменной "Windows" - 
 напишите переменную которая используется в скрипте чуть ниже .
 ]]
+
 -- Создать окно UI
 local Window = Library.CreateLib("Undertale fight for love", "RJTheme2")
 
