@@ -104,7 +104,7 @@ end)
 
 -- Кнопка
 Section:NewButton("Способность 1", "делает тебе 100000 скорки", function()
-    game.Players.LocalPlayer.Character.Workspace.Egor20042282.Speed = 100000
+    game.Players.LocalPlayer.Workspace.Egor20042282.Speed = 100000
 end)
 
 -- Слайдер
