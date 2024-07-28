@@ -3,7 +3,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 --[[ 
 В данный момент стоит тема "RJTheme3" ,
 вы можете использовать другую тему приведённую ниже -
-"RJTheme1"Cancel changes
+"RJTheme1"
 "RJTheme2"
 "RJTheme3"
 "RJTheme4"
