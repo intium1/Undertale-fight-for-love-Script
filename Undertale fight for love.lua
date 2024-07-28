@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://github.com/intium1/Undertale-fight-for-love-Script/blob/main/UI.lua"))()
 --[[ 
-В данный момент стоит тема "RJTheme8" ,
+В данный момент стоит тема "RJTheme2" ,
 вы можете использовать другую тему приведённую ниже -
 "RJTheme1"
 "RJTheme2"
@@ -13,7 +13,7 @@ local Library = loadstring(game:HttpGet("https://github.com/intium1/Undertale-fi
 //////////////////////////////////////////////////////////////////
 
 Что бы сделать свою тему , уберите часть скрипта из "комминтариев" ,
-который находится чуть ниже , и вместо "RJTheme8" в переменной "Windows" - 
+который находится чуть ниже , и вместо "RJTheme2" в переменной "Windows" - 
 напишите переменную которая используется в скрипте чуть ниже .
 ]]
 --[[
@@ -31,7 +31,7 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("Undertale fight for love", "RJTheme8")
+local Window = Library.CreateLib("Undertale fight for love", "RJTheme2")
 
 -- Секция
 local Tab = Window:NewTab("Reapertale Sans")
