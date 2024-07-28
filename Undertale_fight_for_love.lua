@@ -1,4 +1,3 @@
--- Ссылка на Библиотеку
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 --[[ 
 В данный момент стоит тема "RJTheme3" ,
