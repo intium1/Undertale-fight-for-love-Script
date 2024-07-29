@@ -196,12 +196,12 @@ Section:NewLabel("Способности Ink Sans")
 
 -- Кнопка
 Section:NewButton("Способность 1", "None", function()
-    game:GetService("ReplicatedStorage").InkSans1:FireServer()
+    game:GetService("ReplicatedStorage").InkSansAttack1:FireServer()
 end)
 
 -- Кнопка
 Section:NewButton("Способность 2", "None", function()
-    game:GetService("ReplicatedStorage").InkSans2:FireServer()
+    game:GetService("ReplicatedStorage").InkSansAttack2:FireServer()
 end)
 
 -- Кнопка
