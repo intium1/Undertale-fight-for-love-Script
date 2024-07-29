@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 --[[ 
-В данный момент стоит тема "RJTheme4" ,
+В данный момент стоит тема "RJTheme6" ,
 вы можете использовать другую тему приведённую ниже -
 "RJTheme1"
 "RJTheme2"
@@ -13,7 +13,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 //////////////////////////////////////////////////////////////////
 
 Что бы сделать свою тему , уберите часть скрипта из "комминтариев" ,
-который находится чуть ниже , и вместо "RJTheme4" в переменной "Windows" - 
+который находится чуть ниже , и вместо "RJTheme6" в переменной "Windows" - 
 напишите переменную которая используется в скрипте чуть ниже .
 ]]
 --[[
@@ -31,7 +31,7 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("Undertale fight for love", "RJTheme4")
+local Window = Library.CreateLib("Undertale fight for love", "RJTheme6")
 
 -- Секция
 local Tab = Window:NewTab("Reapertale Sans")
@@ -40,7 +40,7 @@ local Tab = Window:NewTab("Reapertale Sans")
 local Section = Tab:NewSection("Reapertale Sans")
 
 -- Кнопка
-Section:NewButton("Превратится в ReaperSans", "Позволяет превратится в Reaper Sansa", function()
+Section:NewButton("Превратится в ReaperSans", "Позволяет превратится в Reaper Sans`a", function()
     game:GetService("ReplicatedStorage").InfoReaperSans:FireServer()
 end)
 
@@ -48,22 +48,22 @@ end)
 Section:NewLabel("Способности Reapertale Sans")
 
 -- Кнопка
-Section:NewButton("Способность 1", "Призывает огромный череп Reaper Sansa", function()
+Section:NewButton("Способность 1", "None", function()
     game:GetService("ReplicatedStorage").ReaperSans1:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 2", "Призывает огромный череп Reaper Sansa", function()
+Section:NewButton("Способность 2", "None", function()
     game:GetService("ReplicatedStorage").ReaperSans2:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 3", "Призывает огромный череп Reaper Sansa", function()
+Section:NewButton("Способность 3", "None", function()
     game:GetService("ReplicatedStorage").ReaperSans3:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 4", "Призывает огромный череп Reaper Sansa", function()
+Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").ReaperSans4:FireServer()
 end)
 
@@ -89,6 +89,29 @@ Section:NewButton("Превратится в Dream Sans", "Позволяет п
     game:GetService("ReplicatedStorage").InfoDreamSans:FireServer()
 end)
 
+-- Заголовок
+Section:NewLabel("Способности Reapertale Sans")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").DreamSans1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 2", "None", function()
+    game:GetService("ReplicatedStorage").DreamSans2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 3", "None", function()
+    game:GetService("ReplicatedStorage").DreamSans3:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 4", "None", function()
+    game:GetService("ReplicatedStorage").DreamSans4:FireServer()
+end)
+
 -- Секция
 local Tab = Window:NewTab("Свои способки")
 
@@ -96,16 +119,24 @@ local Tab = Window:NewTab("Свои способки")
 local Section = Tab:NewSection("Свои способки")
 
 -- Кнопка
-Section:NewButton("Способность 1", "делает тебе 100000 хп", function()
+Section:NewButton("Здоровье 100000(don`t work)", "Не работает!", function()
     game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 100000
 end)
 
 -- Слайдер
-Section:NewSlider("Здоровье", "SliderInfo", 100000, 10, function(s) -- 100000 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider("Здоровье(don`t work)", "Не работает!", 100000, 10, function(s) -- 100000 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.Health = s
 end)
 
 -- Слайдер
-Section:NewSlider("Скорость", "SliderInfo", 1000, 10, function(s) -- 1000 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider("Скорость(so-so work)", "Если удерживать заработает", 1000, 10, function(s) -- 1000 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+-- Секция
+local Tab = Window:NewTab("GUI")
+
+-- Кнопка
+Section:NewButton("Infinite Yield Script", "none", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
