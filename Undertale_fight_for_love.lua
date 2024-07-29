@@ -120,7 +120,7 @@ local Section = Tab:NewSection("Error Sans")
 
 -- Кнопка
 Section:NewButton("Превратится в Error Sans", "Позволяет превратится в Error Sans`a", function()
-    game:GetService("ReplicatedStorage").InfoDreamSans:FireServer()
+    game:GetService("ReplicatedStorage").InfoErrorSans:FireServer()
 end)
 
 -- Заголовок
