@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/intium1/Undertale-fight-for-love-Script/main/GUI.lua"))()
 --[[ 
 В данный момент стоит тема "RJTheme6" ,
 вы можете использовать другую тему приведённую ниже -
