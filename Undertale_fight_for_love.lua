@@ -34,40 +34,6 @@ local colors = {
 local Window = Library.CreateLib("Undertale fight for love", "RJTheme6")
 
 -- Секция
-local Tab = Window:NewTab("Reapertale Sans")
-
--- Подсекция
-local Section = Tab:NewSection("Reapertale Sans")
-
--- Кнопка
-Section:NewButton("Превратится в ReaperSans", "Позволяет превратится в Reaper Sans`a", function()
-    game:GetService("ReplicatedStorage").InfoReaperSans:FireServer()
-end)
-
--- Заголовок
-Section:NewLabel("Способности Reapertale Sans")
-
--- Кнопка
-Section:NewButton("Способность 1", "None", function()
-    game:GetService("ReplicatedStorage").ReaperSans1:FireServer()
-end)
-
--- Кнопка
-Section:NewButton("Способность 2", "None", function()
-    game:GetService("ReplicatedStorage").ReaperSans2:FireServer()
-end)
-
--- Кнопка
-Section:NewButton("Способность 3", "None", function()
-    game:GetService("ReplicatedStorage").ReaperSans3:FireServer()
-end)
-
--- Кнопка
-Section:NewButton("Способность 4", "None", function()
-    game:GetService("ReplicatedStorage").ReaperSans4:FireServer()
-end)
-
--- Секция
 local Tab = Window:NewTab("Admin Sans")
 
 -- Подсекция
@@ -191,27 +157,87 @@ Section:NewButton("Превратится в Ink Sans", "Позволяет пр
     game:GetService("ReplicatedStorage").InfoInkSans:FireServer()
 end)
 
+-- Секция
+local Tab = Window:NewTab("Reapertale Sans")
+
+-- Подсекция
+local Section = Tab:NewSection("Reapertale Sans")
+
+-- Кнопка
+Section:NewButton("Превратится в ReaperSans", "Позволяет превратится в Reaper Sans`a", function()
+    game:GetService("ReplicatedStorage").InfoReaperSans:FireServer()
+end)
+
 -- Заголовок
-Section:NewLabel("Способности Ink Sans")
+Section:NewLabel("Способности Reapertale Sans")
 
 -- Кнопка
 Section:NewButton("Способность 1", "None", function()
-    game:GetService("ReplicatedStorage").InkSansAttack1:FireServer()
+    game:GetService("ReplicatedStorage").ReaperSans1:FireServer()
 end)
 
 -- Кнопка
 Section:NewButton("Способность 2", "None", function()
-    game:GetService("ReplicatedStorage").InkSansAttack2:FireServer()
+    game:GetService("ReplicatedStorage").ReaperSans2:FireServer()
 end)
 
 -- Кнопка
 Section:NewButton("Способность 3", "None", function()
-    game:GetService("ReplicatedStorage").InkSansAttack3:FireServer()
+    game:GetService("ReplicatedStorage").ReaperSans3:FireServer()
 end)
 
 -- Кнопка
 Section:NewButton("Способность 4", "None", function()
-    game:GetService("ReplicatedStorage").InkSansAttack4:FireServer()
+    game:GetService("ReplicatedStorage").ReaperSans4:FireServer()
+end)
+
+-- Секция
+local Tab = Window:NewTab("Sans")
+
+-- Подсекция
+local Section = Tab:NewSection("Sans")
+
+-- Кнопка
+Section:NewButton("Превратится в Sans", "Позволяет превратится в Sans`a", function()
+    game:GetService("ReplicatedStorage").InfoSans:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности Sans")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").Sans1GasterBlaster:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 2", "None", function()
+    game:GetService("ReplicatedStorage").Sans2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 3", "None", function()
+    game:GetService("ReplicatedStorage").Sans3:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 4", "None", function()
+    game:GetService("ReplicatedStorage").Sans4:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность BT2", "None", function()
+    game:GetService("ReplicatedStorage").Sans2BTGasterBlaster:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность BT3", "None", function()
+    game:GetService("ReplicatedStorage").Sans3BT:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность BT4", "None", function()
+    game:GetService("ReplicatedStorage").Sans4BT:FireServer()
 end)
 
 -- Секция
