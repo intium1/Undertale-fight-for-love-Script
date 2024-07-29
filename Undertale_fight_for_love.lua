@@ -180,6 +180,39 @@ Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").FatalErrorSansAttack4:FireServer()
 end)
 
+-- Секция
+local Tab = Window:NewTab("Ink Sans")
+
+-- Подсекция
+local Section = Tab:NewSection("Ink Sans")
+
+-- Кнопка
+Section:NewButton("Превратится в Ink Sans", "Позволяет превратится в Ink Sans`a", function()
+    game:GetService("ReplicatedStorage").InfoInkSans:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности Ink Sans")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").InkSans1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 2", "None", function()
+    game:GetService("ReplicatedStorage").InkSans2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 3", "None", function()
+    game:GetService("ReplicatedStorage").InkSansAttack3:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 4", "None", function()
+    game:GetService("ReplicatedStorage").InkSansAttack4:FireServer()
+end)
 
 -- Секция
 local Tab = Window:NewTab("Свои способки")
