@@ -336,7 +336,7 @@ local Tab = Window:NewTab("Свои способки")
 
 -- Подсекция
 local Section = Tab:NewSection("Свои способки")
--294.686279, 30.2536926, 2638.92822, -0.167938665, 4.76625708e-08, 0.985797465, 8.30533722e-08, 1, -3.42004327e-08, -0.985797465, 7.61302275e-08, -0.167938665
+
 -- Кнопка
 Section:NewButton("Здоровье 100000(don`t work)", "Не работает!", function()
     game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 100000
