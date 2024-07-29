@@ -244,6 +244,94 @@ Section:NewButton("Способность BT4", "None", function()
 end)
 
 -- Секция
+local Tab = Window:NewTab("Gaster")
+
+-- Подсекция
+local Section = Tab:NewSection("Gaster")
+
+-- Кнопка
+Section:NewButton("Превратится в ReaperSans", "Позволяет превратится в Gaster`a", function()
+    game:GetService("ReplicatedStorage").InfoGaster:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности Gaster")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").Gaster1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 2", "None", function()
+    game:GetService("ReplicatedStorage").Gaster2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 3", "None", function()
+    game:GetService("ReplicatedStorage").Gaster3:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 4", "None", function()
+    game:GetService("ReplicatedStorage").Gaster4:FireServer()
+end)
+
+-- Секция
+local Tab = Window:NewTab("GTGaster")
+
+-- Подсекция
+local Section = Tab:NewSection("GTGaster")
+
+-- Кнопка
+Section:NewButton("Превратится в ReaperSans", "Позволяет превратится в GTGaster`a", function()
+    game:GetService("ReplicatedStorage").InfoGTGaster:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности GTGaster")
+
+-- Кнопка
+Section:NewButton("Способность Orange1", "None", function()
+    game:GetService("ReplicatedStorage")["GTGaster1 P1"]:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность Orange2", "None", function()
+    game:GetService("ReplicatedStorage")["GTGaster1 P2"]:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность Cyan1", "None", function()
+    game:GetService("ReplicatedStorage")["GTGaster2 P1"]:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность Cyan2", "None", function()
+    game:GetService("ReplicatedStorage")["GTGaster2 P2"]:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность Blue1", "None", function()
+    game:GetService("ReplicatedStorage")["GTGaster3 P1"]:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность Blue2", "None", function()
+    game:GetService("ReplicatedStorage")["GTGaster3 P2"]:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность Pink1", "None", function()
+    game:GetService("ReplicatedStorage")["GTGaster4 P1"]:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность Pink???", "None", function()
+    game:GetService("ReplicatedStorage")["GTGaster4 P2"]:FireServer()
+end)
+
+-- Секция
 local Tab = Window:NewTab("Свои способки")
 
 -- Подсекция
