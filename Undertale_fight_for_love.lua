@@ -65,7 +65,15 @@ Section:NewButton("Превратится в Admin Sans", "Позволяет п
 end)
 
 -- Секция
-local Tab = Window:NewTab("Drea")
+local Tab = Window:NewTab("Dream Sans")
+
+-- Подсекция
+local Section = Tab:NewSection("Dream Sans")
+
+-- Кнопка
+Section:NewButton("Превратится в Dream Sans", "Позволяет превратится в Dream Sans`a", function()
+    game:GetService("ReplicatedStorage").InfoDreamSans:FireServer()
+end)
 
 -- Секция
 local Tab = Window:NewTab("Свои способки")
