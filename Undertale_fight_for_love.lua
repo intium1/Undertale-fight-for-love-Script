@@ -284,7 +284,7 @@ local Tab = Window:NewTab("GTGaster")
 local Section = Tab:NewSection("GTGaster")
 
 -- Кнопка
-Section:NewButton("Превратится в ReaperSans", "Позволяет превратится в GTGaster`a", function()
+Section:NewButton("Превратится в GTGaster", "Позволяет превратится в GTGaster`a", function()
     game:GetService("ReplicatedStorage").InfoGTGaster:FireServer()
 end)
 
