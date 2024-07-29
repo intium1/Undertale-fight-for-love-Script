@@ -90,10 +90,10 @@ Section:NewButton("Превратится в Dream Sans", "Позволяет п
 end)
 
 -- Заголовок
-Section:NewLabel("Способности Reapertale Sans")
+Section:NewLabel("Способности Dream Sans")
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 1(don`t work)", "None", function()
     game:GetService("ReplicatedStorage").DreamSans1:FireServer()
 end)
 
@@ -111,6 +111,75 @@ end)
 Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").DreamSans4:FireServer()
 end)
+
+-- Секция
+local Tab = Window:NewTab("Error Sans")
+
+-- Подсекция
+local Section = Tab:NewSection("Error Sans")
+
+-- Кнопка
+Section:NewButton("Превратится в Error Sans", "Позволяет превратится в Error Sans`a", function()
+    game:GetService("ReplicatedStorage").InfoDreamSans:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности Error Sans")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").ErrorSans1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 2", "None", function()
+    game:GetService("ReplicatedStorage").ErrorSans2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 3", "None", function()
+    game:GetService("ReplicatedStorage").ErrorSans3:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 4", "None", function()
+    game:GetService("ReplicatedStorage").ErrorSans4:FireServer()
+end)
+
+-- Секция
+local Tab = Window:NewTab("Fatal Error Sans")
+
+-- Подсекция
+local Section = Tab:NewSection("Fatal Error Sans")
+
+-- Кнопка
+Section:NewButton("Превратится в Fatal Error Sans", "Позволяет превратится в Fatal Error Sans`a", function()
+    game:GetService("ReplicatedStorage").InfoFatalErrorSans:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности Fatal Error Sans")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FatalErrorSans1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 2", "None", function()
+    game:GetService("ReplicatedStorage").FatalErrorSans2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 3", "None", function()
+    game:GetService("ReplicatedStorage").FatalErrorSans3:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 4", "None", function()
+    game:GetService("ReplicatedStorage").FatalErrorSans4:FireServer()
+end)
+
 
 -- Секция
 local Tab = Window:NewTab("Свои способки")
