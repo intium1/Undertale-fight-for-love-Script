@@ -162,22 +162,22 @@ Section:NewLabel("Способности Fatal Error Sans")
 
 -- Кнопка
 Section:NewButton("Способность 1", "None", function()
-    game:GetService("ReplicatedStorage").FatalErrorSans1:FireServer()
+    game:GetService("ReplicatedStorage").FatalErrorSansAttack1:FireServer()
 end)
 
 -- Кнопка
 Section:NewButton("Способность 2", "None", function()
-    game:GetService("ReplicatedStorage").FatalErrorSans2:FireServer()
+    game:GetService("ReplicatedStorage").FatalErrorSansAttack2:FireServer()
 end)
 
 -- Кнопка
 Section:NewButton("Способность 3", "None", function()
-    game:GetService("ReplicatedStorage").FatalErrorSans3:FireServer()
+    game:GetService("ReplicatedStorage").FatalErrorSansAttack3:FireServer()
 end)
 
 -- Кнопка
 Section:NewButton("Способность 4", "None", function()
-    game:GetService("ReplicatedStorage").FatalErrorSans4:FireServer()
+    game:GetService("ReplicatedStorage").FatalErrorSansAttack4:FireServer()
 end)
 
 
