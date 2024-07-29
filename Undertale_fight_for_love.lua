@@ -136,6 +136,9 @@ end)
 -- Секция
 local Tab = Window:NewTab("GUI")
 
+-- Подсекция
+local Section = Tab:NewSection("GUI")
+
 -- Кнопка
 Section:NewButton("Infinite Yield Script", "none", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
