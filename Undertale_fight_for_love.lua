@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 --[[ 
-В данный момент стоит тема "RJTheme1" ,
+В данный момент стоит тема "RJTheme4" ,
 вы можете использовать другую тему приведённую ниже -
 "RJTheme1"
 "RJTheme2"
@@ -13,7 +13,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 //////////////////////////////////////////////////////////////////
 
 Что бы сделать свою тему , уберите часть скрипта из "комминтариев" ,
-который находится чуть ниже , и вместо "RJTheme1" в переменной "Windows" - 
+который находится чуть ниже , и вместо "RJTheme4" в переменной "Windows" - 
 напишите переменную которая используется в скрипте чуть ниже .
 ]]
 --[[
@@ -31,7 +31,7 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("Undertale fight for love", "RJTheme1")
+local Window = Library.CreateLib("Undertale fight for love", "RJTheme4")
 
 -- Секция
 local Tab = Window:NewTab("Reapertale Sans")
