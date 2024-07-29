@@ -225,6 +225,9 @@ Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").Sans4:FireServer()
 end)
 
+-- Заголовок
+Section:NewLabel("Способности Sans !T")
+
 -- Кнопка
 Section:NewButton("Способность BT2", "None", function()
     game:GetService("ReplicatedStorage").Sans2BTGasterBlaster:FireServer()
