@@ -332,6 +332,209 @@ Section:NewButton("Способность Pink???", "None", function()
 end)
 
 -- Секция
+local Tab = Window:NewTab("LV0Frisk")
+
+-- Подсекция
+local Section = Tab:NewSection("LV0Frisk")
+
+-- Кнопка
+Section:NewButton("Превратится в LV0Frisk", "Позволяет превратится в LV0Frisk", function()
+    game:GetService("ReplicatedStorage").infoLV0Frisk:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности LV0Frisk")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FriskLV0Attack1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FriskLV0Attack2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FriskLV0Attack3:FireServer()
+end)
+
+-- Секция
+local Tab = Window:NewTab("Frisk")
+
+-- Подсекция
+local Section = Tab:NewSection("Frisk")
+
+-- Кнопка
+Section:NewButton("Превратится в LV0Frisk", "Позволяет превратится в Frisk", function()
+    game:GetService("ReplicatedStorage").InfoFrisk:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности LV0Frisk")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FriskAttack1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FriskAttack2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FriskAttack3:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FriskAttack4:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").FriskAttack5:FireServer()
+end)
+
+-- Секция
+local Tab = Window:NewTab("SSChara")
+
+-- Подсекция
+local Section = Tab:NewSection("Story Shift Chara")
+
+-- Кнопка
+Section:NewButton("Превратится в Story Shift Chara", "Позволяет превратится в Story Shift Chara", function()
+    game:GetService("ReplicatedStorage").InfoStoryshiftChara:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности SSChara Фаза 1")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").StoryshiftCharaAttack1Phase1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").StoryshiftCharaAttack2Phase1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").StoryshiftCharaAttack3Phase1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").StoryshiftCharaAttack4Phase1:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности SSChara Фаза 2")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").StoryshiftCharaAttack1Phase2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").StoryshiftCharaAttack2Phase2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").StoryshiftCharaAttack3Phase2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").StoryshiftCharaAttack4Phase2:FireServer()
+end)
+
+-- Секция
+local Tab = Window:NewTab("XEvent")
+
+-- Подсекция
+local Section = Tab:NewSection("XEvent")
+
+-- Кнопка
+Section:NewButton("Превратится в XEvent", "Позволяет превратится в XEvent", function()
+    game:GetService("ReplicatedStorage").InfoXChara:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности XSans")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XSans_Attack1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XSans_Attack2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XSans_Attack3:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XSans_Attack4:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности XChara Фаза 1(Без кнопки перезаписи)")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XChara_Attack1:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XChara_Attack2:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XChara_Attack3:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("XChara Кнопка перезаписи")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XChara_Attack4:FireServer()
+end)
+
+-- Заголовок
+Section:NewLabel("Способности XChara Фаза 2(С кнопкой перезаписи)")
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XChara_Attack1Button:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XChara_Attack2Button:FireServer()
+end)
+
+-- Кнопка
+Section:NewButton("Способность 1", "None", function()
+    game:GetService("ReplicatedStorage").XChara_Attack3Button:FireServer()
+end)
+
+-- Секция
 local Tab = Window:NewTab("Свои способки")
 
 -- Подсекция
@@ -343,8 +546,18 @@ Section:NewButton("Здоровье 100000(don`t work)", "Не работает!
 end)
 
 -- Кнопка
-Section:NewButton("Телепорт к Гастеру", "", function()
+Section:NewButton("Телепорт к Мазагину Теми", "None", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(195.381104, 243.392044, -470.505371, -130, 1, -1, 0, 1, 0, 1, 0, 0)
+end)
+
+-- Кнопка
+Section:NewButton("Телепорт к Гастеру", "None", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-294.686279, 30.2536926, 2638.92822, -0.167938665, 4.76625708e-08, 0.985797465, 8.30533722e-08, 1, -3.42004327e-08, -0.985797465, 7.61302275e-08, -0.167938665)
+end)
+
+-- Кнопка 
+Section:NewButton("Телепорт к Спамтону", "None", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2931.21582, 30.3536987, 1407.07141, 0, 0, 1, 0, 1, -0, -1, 0, 0) 
 end)
 
 -- Слайдер
@@ -366,4 +579,9 @@ local Section = Tab:NewSection("GUI")
 -- Кнопка
 Section:NewButton("Infinite Yield Script", "none", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+-- Кнопка
+Section:NewButton("DEX", "none", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DannyH3103/scripts/main/Hydrogen_DEXV4"))()
 end)
