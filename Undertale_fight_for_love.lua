@@ -367,12 +367,12 @@ local Tab = Window:NewTab("Frisk")
 local Section = Tab:NewSection("Frisk")
 
 -- Кнопка
-Section:NewButton("Превратится в LV0Frisk", "Позволяет превратится в Frisk", function()
+Section:NewButton("Превратится в Frisk", "Позволяет превратится в Frisk", function()
     game:GetService("ReplicatedStorage").InfoFrisk:FireServer()
 end)
 
 -- Заголовок
-Section:NewLabel("Способности LV0Frisk")
+Section:NewLabel("Способности Frisk")
 
 -- Кнопка
 Section:NewButton("Способность 1", "None", function()
