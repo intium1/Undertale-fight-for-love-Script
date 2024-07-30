@@ -394,11 +394,6 @@ Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").FriskAttack4:FireServer()
 end)
 
--- Кнопка
-Section:NewButton("Способность 5", "None", function()
-    game:GetService("ReplicatedStorage").FriskAttack5:FireServer()
-end)
-
 -- Секция
 local Tab = Window:NewTab("SSChara")
 
