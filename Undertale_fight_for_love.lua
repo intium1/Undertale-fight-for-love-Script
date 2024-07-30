@@ -351,12 +351,12 @@ Section:NewButton("Способность 1", "None", function()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 2", "None", function()
     game:GetService("ReplicatedStorage").FriskLV0Attack2:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 3", "None", function()
     game:GetService("ReplicatedStorage").FriskLV0Attack3:FireServer()
 end)
 
@@ -380,22 +380,22 @@ Section:NewButton("Способность 1", "None", function()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 2", "None", function()
     game:GetService("ReplicatedStorage").FriskAttack2:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 3", "None", function()
     game:GetService("ReplicatedStorage").FriskAttack3:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").FriskAttack4:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 5", "None", function()
     game:GetService("ReplicatedStorage").FriskAttack5:FireServer()
 end)
 
@@ -419,17 +419,17 @@ Section:NewButton("Способность 1", "None", function()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 2", "None", function()
     game:GetService("ReplicatedStorage").StoryshiftCharaAttack2Phase1:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 3", "None", function()
     game:GetService("ReplicatedStorage").StoryshiftCharaAttack3Phase1:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").StoryshiftCharaAttack4Phase1:FireServer()
 end)
 
@@ -442,17 +442,17 @@ Section:NewButton("Способность 1", "None", function()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 2", "None", function()
     game:GetService("ReplicatedStorage").StoryshiftCharaAttack2Phase2:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 3", "None", function()
     game:GetService("ReplicatedStorage").StoryshiftCharaAttack3Phase2:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").StoryshiftCharaAttack4Phase2:FireServer()
 end)
 
@@ -476,17 +476,17 @@ Section:NewButton("Способность 1", "None", function()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 2", "None", function()
     game:GetService("ReplicatedStorage").XSans_Attack2:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 3", "None", function()
     game:GetService("ReplicatedStorage").XSans_Attack3:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 4", "None", function()
     game:GetService("ReplicatedStorage").XSans_Attack4:FireServer()
 end)
 
@@ -499,12 +499,12 @@ Section:NewButton("Способность 1", "None", function()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 2", "None", function()
     game:GetService("ReplicatedStorage").XChara_Attack2:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 3", "None", function()
     game:GetService("ReplicatedStorage").XChara_Attack3:FireServer()
 end)
 
@@ -512,7 +512,7 @@ end)
 Section:NewLabel("XChara Кнопка перезаписи")
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Кнопка", "None", function()
     game:GetService("ReplicatedStorage").XChara_Attack4:FireServer()
 end)
 
@@ -525,12 +525,12 @@ Section:NewButton("Способность 1", "None", function()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 2", "None", function()
     game:GetService("ReplicatedStorage").XChara_Attack2Button:FireServer()
 end)
 
 -- Кнопка
-Section:NewButton("Способность 1", "None", function()
+Section:NewButton("Способность 3", "None", function()
     game:GetService("ReplicatedStorage").XChara_Attack3Button:FireServer()
 end)
 
