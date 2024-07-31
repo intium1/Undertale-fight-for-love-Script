@@ -583,5 +583,5 @@ end)
 
 -- Кнопка
 Section:NewButton("DEX", "none", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DannyH3103/scripts/main/Hydrogen_DEXV4"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/BtPiJ9SJ"))()
 end)
